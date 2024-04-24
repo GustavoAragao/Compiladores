@@ -1,0 +1,8 @@
+"automato parte 3.png" é a imagem do automato com as devidas correções da primeira versão e alguns dos nomes de estados foram alterados para uma melhor legibilidade no código.
+	correções feitas:
+	* Endereço não garante que tenha pelo menos um dígito hexadecimal após x.
+	* alguns estados não determinísticos. ex q1 Como x vai pra q26, x também vai pra "int".
+
+"analizador.py" é o código do programa feito em python com a implementação do automato para ler um codico fonte na linguagem cic_2024.1 de um arquivo .txt e mostrar uma lista de tokens reconhecidos junto com relatorios de erros e somatorio de tokens.
+Os arquivos do tipo "exemplo.txt" contém as palavras testadas sendo os três últimos exemplos escritos na linguagem cic_2024.1 tirados da seção 3 do arquivo de instruções do trabalho.
+"automato parte 3.jff" é o arquivo da implementação do automato feito na aplicação JFLAP7.1. 
